@@ -9,7 +9,7 @@ export default class CustomNavbar extends Component {
         <Navbar defauld collaseOnSelect>
             <Navbar.Header>
                 <Navbar.Brand>
-                    <Link to = "/">CodeLife</Link>
+                    <Link to = "/">My Portfolio</Link>
                 </Navbar.Brand>
                 <Navbar.Toggle />
             </Navbar.Header>
