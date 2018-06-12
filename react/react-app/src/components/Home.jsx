@@ -30,7 +30,7 @@ export default class Home extends Component {
               </Col>
             </Row>
             <Row className="Aboutme-homepage">
-            <Col xs={12} sm={1} xsOffset={1}>
+            <Col xs={12} sm={3} xsOffset={1}>
               <h1> About me !! </h1>
             </Col>
             </Row>
