@@ -1,12 +1,11 @@
-.about-header-image {
-    width: 100%;
-    margin-top: -2em;
-    margin-bottom: 2em;
+.about-page-col{
+  margin-top: 10em;
+  margin-bottom: 10em;
   }
 
   
 .about-profile-pic {
-  width: 50%;
+  width: 30%;
   float: left;
   margin: 0 1em 1em 0;
 }

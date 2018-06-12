@@ -10,12 +10,13 @@ export default class Home extends Component {
       <div>
         <Grid>                 
            <Row className="show-grid text-center">
-              <Col xs={12} sm={6} className="person-wrapper">
+              <Col xs={12} sm={6} className="person-jumbo">
               <ScrollAnimation animateIn='fadeIn' delay={1000}>
               <Jumbotron className="introtext-homepage">
                 <h1>Welcome</h1>
                 <p> Dit is mijn portfolio website </p>
                 <p> Ik ben Jordy van Santen <br /> Ik ben een beginnend Creatieve Programmeur </p>
+                <p> Ik zit op de Hogeschool Rotterdam en de Opleiding die ik op dit moment volg is Creative Media and Game Technologies.</p>
                 <p> Click Here if you want to know me Better!!</p>
                 <ScrollAnimation delay={2000}animateIn="fadeIn">
                 <Button className="home-button" bsSize="large" href="./About"> About ME! </Button>
@@ -24,8 +25,8 @@ export default class Home extends Component {
                 </Jumbotron>
               </ScrollAnimation>
               </Col>
-              <Col xs={12} sm={7} className="person-wrapper">
-                <Image src="assets/.jpg" circle className="profile-pic"/>
+              <Col xs={12} sm={6} className="person-wrapper">
+                <Image src="assets/beter.png" circle className="profile-pic"/>
               </Col>
             </Row>
             <Row className="Aboutme-homepage">
