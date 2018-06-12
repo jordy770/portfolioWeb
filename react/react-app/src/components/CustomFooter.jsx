@@ -1,15 +1,25 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+import { Grid, Row, Col, Image, Thumbnail } from 'react-bootstrap';
 import './CustomFooter.css';
 
 export default class CustomFooter extends Component {
   render() {
     return (
         <footer className="footer">
-            <img className="img-responsive" src="./assets/dogo.jpg" alt="doggo"/>
-
-            
-            
+          <Grid>
+            <Row>
+              <Col xs={9} md={3}>
+                <Thumbnail href="https://codepen.io/jordy770/"  src="/assets/Codepen.png"  circle/>
+              </Col>
+              <Col xs={9} md={3}>
+                <Thumbnail href="https://www.linkedin.com/in/jordy-van-santen-b0a20851/" src="/assets/Linked in.png" circle/>
+              </Col>
+              <Col xs={9} md={3}>
+                <Thumbnail href="https://github.com/jordy770/" src="/assets/Github.png" circle/>
+              </Col>
+            </Row>
+          </Grid>;         
         </footer>
     )
   }

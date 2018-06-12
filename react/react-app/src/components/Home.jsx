@@ -8,13 +8,9 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-      {/* <Image src="assets/serenity_galaxy.1.jpg" className="home-header-image"/> */}
-        <Grid>
-          
-          
-
+        <Grid>                 
            <Row className="show-grid text-center">
-              <Col xs={12} sm={5} className="person-wrapper">
+              <Col xs={12} sm={6} className="person-wrapper">
               <ScrollAnimation animateIn='fadeIn' delay={1000}>
               <Jumbotron className="introtext-homepage">
                 <h1>Welcome</h1>

@@ -1,20 +1,8 @@
 footer{
     list-style-type: none;
     margin: 0;
-    padding: 100px 50vh;
+    padding: 50px 50vh;
     overflow: hidden;
-    background-color: #222;
+    background-color: #2892D7;
     width: 100%;
-}
-
-footer {
-    float: left;
-}
-
-footer a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
