@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
-import News from './components/News';
+import Project from './components/Project';
 import Navbar from './components/CustomNavbar';
 import Footer from './components/CustomFooter';
 
@@ -15,7 +15,7 @@ class App extends Component {
           <Navbar />
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/news" component={News} />
+          <Route path="/Project" component={Project} />
           <Footer />
         </div>
       </Router>
